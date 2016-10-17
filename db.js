@@ -1,7 +1,7 @@
 var Sequelize = require('sequelize');
 
 // new Sequelize('database', 'username', 'password', options)
-var db = new Sequelize('amy', 'amy', '', {
+var db = new Sequelize('', '', '', {
   host: 'localhost',
   dialect: 'postgres'
 });
